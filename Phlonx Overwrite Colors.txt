@@ -1,0 +1,137 @@
+/* Colors
+Gradients
+#071d49 brand blue
+#00a9e0 brand light blue
+
+Gradient Colors
+#36beb7 aqua 
+#14a7da aqua blue 
+
+Secondary Colors
+#efefef light gray
+#3399cc med blue
+#ff0000 red
+#887799 purple
+#ff7a00 orange
+#eeaa00 yellow
+#eeaa00 grape
+*/
+
+
+/* font */
+body, h1, h2,h3,h4,h5,h6,p {
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif!important;
+}
+
+h1 {
+		letter-spacing: -1.1px;
+		font-size: 2.3em;
+		font-weight: 800;
+		color: #071d49;
+}
+
+h2 {
+		letter-spacing: -.8px;
+		font-size:1.5em;
+		font-weight: 500;
+
+}
+
+h3 {
+		letter-spacing: 1px;
+		font-size:1.1em;
+		font-weight: 300;
+}
+
+/* For Phlox headers */
+h3 span {
+			letter-spacing: -.8px;
+}
+
+p {
+		font-size:1.1em;
+}
+
+p.intro {
+		font-size:1.35em;
+}
+
+
+.intro {
+		font-size:1.35em;
+}
+
+
+ul {
+    list-style: disc inside none;
+}
+
+.aux-horizontal>.aux-social-list>li {
+    float: left;
+    list-style: none;
+
+}
+
+
+
+/* Color overwrites to MC Blues
+*/
+
+.aux-modern-heading-primary,  .aux-ico-box {
+	color: #00a9e0!important;
+}
+
+.aux-modern-heading-divider {
+ 	background-image: linear-gradient(0deg, #00a9e0 180%, #00a9e0 100%)!important;
+	box-shadow: none!important;
+	color: #00a9e0!important;
+}
+.aux-curios-blue {
+ 	background-image: linear-gradient(0deg, #00a9e0 180%, #00a9e0 100%)!important;
+	color: white!important;
+}
+.aux-button.aux-large.aux-curios-blue .aux-text  {
+ 	color: white!important;
+} 
+
+/* Buttons */
+a.aux-button.aux-large {
+	box-shadow: 0 3px 4px 0 rgba(0,0,0,0.17)!important;
+
+}
+
+a.aux-button.aux-large {
+	box-shadow: 0 3px 4px 0 rgba(0,0,0,0.17)!important;
+
+}
+.aux-text {
+ 	color: #00a9e0!important;
+}
+
+/* Logo */
+
+.custom-logo {
+	height: 60px!important;
+	width: auto;
+}
+
+.aux-sticky .custom-logo {
+	height: 50px!important;
+	width: auto;
+}
+
+/* Banner */
+/* .elementor-section-boxed.elementor-section-height-default.elementor-section-items-middle.elementor-section.elementor-top-section {
+background-image: linear-gradient(135deg, #36beb7 0%, #14a7da 100%)!important;
+}
+ */
+.elementor-section-boxed.elementor-section-height-default.elementor-section-items-middle.elementor-section.elementor-top-section .aux-modern-heading-primary {
+	 	color: white!important;
+}
+
+/* Blog */
+.post a {
+	color: #00a9e0;
+}
+
+
