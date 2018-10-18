@@ -72,6 +72,23 @@ ul {
 
 }
 
+/* For Category Archive */
+.elementor-widget-theme-archive-title.elementor-widget-heading .elementor-heading-title {
+    display: none;
+}
+
+.aux-breadcrumbs{
+	display:none;}
+
+.page-title-section .page-header>.aux-container {
+    position: relative;
+    z-index: 2;
+    margin-top: 45px;
+}
+
+.elementor-1007 .elementor-element.elementor-element-7afd6e96 {
+    padding: 50px 0px 100px 0px;
+}
 
 
 /* Color overwrites to MC Blues
@@ -109,14 +126,8 @@ a.aux-button.aux-large {
 }
 
 /* Logo */
-
-.custom-logo {
-	height: 60px!important;
-	width: auto;
-}
-
 .aux-sticky .custom-logo {
-	height: 50px!important;
+	height: 60px!important;
 	width: auto;
 }
 
@@ -134,4 +145,24 @@ background-image: linear-gradient(135deg, #36beb7 0%, #14a7da 100%)!important;
 	color: #00a9e0;
 }
 
+/* video scaling */
+
+.elementor .elementor-background-video-container{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+
+.elementor video{
+	height: 105% !important;
+	width: 100% !important;
+}
+
+
+@media(min-width:1600px){
+	.elementor-element.elementor-element-675539ee > .elementor-container{
+		min-height: 80vh !important;
+	}
+}
 
