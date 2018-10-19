@@ -77,6 +77,10 @@ ul {
     display: none;
 }
 
+.page-title-section .page-header>.aux-container {
+    display: none;
+}
+
 .aux-breadcrumbs{
 	display:none;}
 
@@ -146,23 +150,27 @@ background-image: linear-gradient(135deg, #36beb7 0%, #14a7da 100%)!important;
 }
 
 /* video scaling */
-
 .elementor .elementor-background-video-container{
 	display:flex;
 	align-items:center;
 	justify-content: center;
 }
 
-
 .elementor video{
-	height: 105% !important;
+	height: 100% !important;
 	width: 100% !important;
+	object-position: 0 15%;
 }
-
 
 @media(min-width:1600px){
 	.elementor-element.elementor-element-675539ee > .elementor-container{
 		min-height: 50vh !important;
 	}
+
+/* Form */
+a.button, button,  input[type="submit"], input[type="reset"] {
+    border-radius: 0;
+    background: #888888;
+	padding-top:25px;
 }
 
