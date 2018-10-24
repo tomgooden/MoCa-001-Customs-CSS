@@ -72,6 +72,15 @@ ul {
 
 }
 
+ul.alist{
+list-style-position: outside; 
+margin-left: 20px!important;
+}
+
+ul li.alist{
+margin: 5px;
+}
+
 /* For Category Archive */
 .elementor-widget-theme-archive-title.elementor-widget-heading .elementor-heading-title {
     display: none;
@@ -171,7 +180,51 @@ background-image: linear-gradient(135deg, #36beb7 0%, #14a7da 100%)!important;
 /* Form */
 a.button, button,  input[type="submit"], input[type="reset"] {
     border-radius: 0;
-    background: #888888;
+    background: #00a9e0;
 	padding-top:25px;
+	color:#ffffff;
 }
-	
+
+.form_text, .formCheckboxListLabel{padding:25px 0 25px 0!important;}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border: solid 1px #3D3D3D;
+    box-shadow: 0 0 0px 2.5px white inset;
+    margin: 4px 8px 4px 10px;
+    vertical-align: text-top;
+    -webkit-transition: background-color 300ms;
+    transition: background-color 300ms;
+}
+
+nput[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+    padding: 1.1em;
+	max-width:100%!important;
+	min-width:100%!important;
+	width:100%!important;
+    -webkit-transition: border-color 300ms;
+    transition: border-color 300ms;
+}
+
+.maFormElement.maFormFieldTypeStandardSubmitButton{
+	padding:20px 0 55px 0!important;
+}
+.MAform {
+    padding: 0px 8% 8% 8%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="url"], input[type="number"],textarea{
+	font-size: 1em;
+	margin-bottom: 10px;
+  padding: .75em;
+	font-weight: normal;
+
+}
+
+label {
+	font-size: .85em;
+	margin-bottom: 5px;
+	font-weight: 600;
+
+}
