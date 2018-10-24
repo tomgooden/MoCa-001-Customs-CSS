@@ -168,7 +168,7 @@ background-image: linear-gradient(135deg, #36beb7 0%, #14a7da 100%)!important;
 .elementor video{
 	height: 100% !important;
 	width: 100% !important;
-	object-position: 0 15%;
+	object-position: 0 50%;
 }
 
 @media(min-width:1600px){
