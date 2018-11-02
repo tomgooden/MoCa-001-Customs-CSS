@@ -90,6 +90,8 @@ margin: 5px;
     display: none;
 }
 
+
+
 .aux-breadcrumbs{
 	display:none;}
 
@@ -102,6 +104,43 @@ margin: 5px;
 .elementor-1007 .elementor-element.elementor-element-7afd6e96 {
     padding: 50px 0px 100px 0px;
 }
+
+/*Blockquote */
+blockquote {
+    padding: 30px 40px 20px;
+    position: relative;
+	    background-color: rgba(0,0,0,0.00);
+}
+blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 24px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+
+ blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  content:"\f10d";
+  font-size: 160px;
+  color: rgba(0,0,0,0.1);
+   
+} 
+
+blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+	bottom: 20px;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #1bb0ce;
+    height: 3px;
+    width: 200px;
+}
+
 
 
 /* Color overwrites to MC Blues
@@ -228,3 +267,8 @@ label {
 	font-weight: 600;
 
 }
+
+/* Blog */
+.page-title-section
+{display:none;}
+
