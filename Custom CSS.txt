@@ -318,3 +318,16 @@ a.header-link {
 a.header-link:hover {
 	color: #AAA !important;
 }
+
+/* Custom Contact Us */
+.header-link-button {
+	border: 1px solid;
+	border-radius: 3px;
+	padding: 2px 7px;
+	text-transform: uppercase;
+}
+
+.header-link-button:hover {
+	opacity: 0.6;
+}
+
