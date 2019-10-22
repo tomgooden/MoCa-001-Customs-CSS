@@ -72,6 +72,10 @@ ul {
 
 }
 
+.aux-search-icon {
+	color: rgba(82, 82, 82, 0.95) !important;
+}
+
 ul.alist{
 list-style-position: outside; 
 margin-left: 20px!important;
@@ -178,8 +182,13 @@ a.aux-button.aux-large {
 }
 
 /* Logo */
-.aux-sticky .custom-logo {
-	height: 60px!important;
+ .custom-logo {
+	height: 65px;
+	width: auto;
+}
+
+ .aux-sticky  .custom-logo {
+	height: 50px!important;
 	width: auto;
 }
 
@@ -195,6 +204,19 @@ background-image: linear-gradient(135deg, #36beb7 0%, #14a7da 100%)!important;
 /* Blog */
 .post a {
 	color: #00a9e0;
+}
+
+.wp-block-image .alignleft {
+	margin-right: 1em !important;
+}
+
+.wp-block-image figcaption {
+margin-top: .5em;
+margin-bottom: .5em;
+color: #555d66;
+text-align: left;
+font-size: 13px;
+line-height: 15px;
 }
 
 /* video scaling */
@@ -237,7 +259,7 @@ input[type="checkbox"] {
     transition: background-color 300ms;
 }
 
-nput[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="url"], textarea {
     padding: 1.1em;
 	max-width:100%!important;
 	min-width:100%!important;
@@ -261,6 +283,10 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
 
 }
 
+form.maForm select {
+	min-height: 55px!important;
+}
+
 label {
 	font-size: .85em;
 	margin-bottom: 5px;
@@ -272,3 +298,23 @@ label {
 .page-title-section
 {display:none;}
 
+/* Fix Nav on Short Windows */
+@media (max-height: 550px){
+.aux-master-menu.aux-horizontal.aux-skin-dash-divided .aux-submenu>.aux-menu-item>.aux-item-content, .aux-master-menu.aux-vertical.aux-skin-dash-divided .aux-submenu>.aux-menu-item>.aux-item-content {
+	padding: 8px 0!important;
+	margin: 0 8px!important;
+	font-size: 12px!important;
+	border-bottom:  1px #3D3D3D;
+}
+}
+
+/* Header Links */
+
+a.header-link {
+	text-transform: uppercase;
+	padding: 0 8px;
+}
+
+a.header-link:hover {
+	color: #AAA !important;
+}
